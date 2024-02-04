@@ -1,0 +1,208 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.head{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    justify-content: space-between;  
+    background-color: rgb(220 219 217);  
+}
+.logo{
+    font-size: 50px;
+    font-style: italic;
+    font-family: sans-serif;
+    padding: 2%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(220 219 217);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 45%;
+    height: 50px;
+    /* background-color:transparent; */
+    background-color: rgb(220 219 217);
+  
+}
+li a{ 
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration:none ;
+
+}
+
+
+.home{
+   
+    background-image: url(images/41.avif);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  
+   
+
+}
+ .home h1{
+        color: rgb(0, 0, 0);
+        padding: 2%;
+}
+.home p{
+    color:black;
+    padding: 2%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/* -------------book---------------- */
+.shop{
+    background-color: azure;
+}
+.title h2{
+padding: 5%;
+    color: rgb(0, 0, 0);
+   font-size: 30px;
+   text-align: center;
+}
+.treding{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    grid-column: 3;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* margin-top: 50px; */
+}
+
+.child h4{
+    color: rgb(234, 37, 37);
+   font-size: 20px;
+   text-align: left;
+   padding: 10px;
+  
+}
+
+.child p{
+    text-align: left;
+    color: rgb(6, 6, 6);
+    padding: 2px;
+    font-size: 15px;
+}
+.child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}       
+.book-img img{
+    
+    /* width: fit-content; */
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:  8px;
+    padding: 15px;
+    box-shadow: 5px 10px 30px rgba(242, 236, 236, 0.2);
+    border-radius: 2px;
+     margin: 15px;
+    cursor: pointer; 
+    object-fit: cover; 
+    transition: transform 0.5s;
+}
+.book-img:hover{
+    transform: scale(1.1);
+    
+
+}
+.star{
+    text-align: center;
+    margin-top: 10px;
+}
+.star a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 5px;
+    color: rgb(255, 140, 0);
+    border: black;
+    display: inline-block;
+    transition: trasform 0.5s;
+}
+.button{
+   font: optional;
+   border-radius: 4px;
+   font-size: 10px;
+   text-align: right;
+   align-self: start;
+   
+
+}
+
+.button button{
+
+  
+  background-image: linear-gradient( #f92020 50%,#f60606);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  line-height: 1em;
+  /* max-width: 50%;
+  min-width: 40px; */
+  width: 60%;
+  height: 10px;
+  padding: 20px 30px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button:active,
+.button:hover {
+  outline: 0;
+}
+
+
+
+/* <!-- ------bottom--------- --> */
+.bottom{
+    background-color: rgb(254, 51, 6);
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+    padding: 2%;
+    line-height: 30px;
+   display: flex;
+   flex-direction: column;
+   color: black;
+   text-decoration: none;
+
+}
+.one h4{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+   text-decoration: none;
+
+}
+
+
